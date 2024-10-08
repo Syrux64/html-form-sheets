@@ -1,0 +1,88 @@
+h1{
+    font-family: Georgia;
+}
+
+.formContainer form{
+    background-color: rgba(109, 78, 78, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+.button input{
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 8px;
+    border-width: 0px;
+    cursor: pointer;
+    background-color: #00A5D8;
+    transition: 0.3s;
+    color: white;
+}
+
+.button input:hover{
+    background-color: rgba(226, 43, 43, 0.473);
+    transition: 0.3s;
+}
+
+select {
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    margin: 0; /* Add this line to reset margin */
+    display: block;
+    width: 313px;
+    border: none;
+    border-bottom: 1px solid #757575;
+    background-color: transparent;
+    font-weight: normal;
+    transition: 0.2s ease all;
+}
+
+select:focus {
+    outline: none;
+}
+
+.screenShotContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 313px;
+}
+
+.screenShotContainer label{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.screenShotContainer input[type="file"] {
+    display: none;
+}
+
+.customFileUpload {
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #62a2e6;
+    color: white; 
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.customFileUpload:hover {
+    background-color: #0056b3; 
+    border-color: #0056b3; 
+}
+
+
+.fileName {
+    margin-top: 5px;
+    font-size: 16px; 
+    color: #555;
+}
+
+
+
