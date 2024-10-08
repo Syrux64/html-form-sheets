@@ -59,6 +59,7 @@ const Form = () => {
                             const fileName = e.target.files[0]?.name || '';
                             setFileName(fileName); 
                         }}
+                        required
                     />
                 </label>
                 
